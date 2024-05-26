@@ -1,0 +1,96 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.63",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Nigersaurus",
+      "rotation": [0.7071068286895752, 0, 0, 0.7071068286895752],
+      "scale": [0.00800000037997961, 0.00800000037997961, 0.00800000037997961]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "model_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 17951,
+      "max": [258.2742614746094, 234.6504669189453, 0.430417001247406],
+      "min": [-75.44779968261719, -564.208984375, -241.7576904296875],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 17951,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 17951,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 38964,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 215412,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 215412,
+      "byteOffset": 215412,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143608,
+      "byteOffset": 430824,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 77928,
+      "byteOffset": 574432,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 652360,
+      "uri": "Nigersaurus.bin"
+    }
+  ]
+}
