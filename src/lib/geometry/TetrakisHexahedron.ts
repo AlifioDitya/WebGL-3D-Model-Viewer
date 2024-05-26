@@ -39,7 +39,7 @@ export class TetrakisHexahedron extends BufferGeometry {
     ];
 
     const scale = 1 - this.thickness;
-    const innerVertices = outerVertices.map((v) => v.clone().multiply(scale));
+    // const innerVertices = outerVertices.map((v) => v.clone().multiply(scale));
 
     const edges = [
       [outerVertices[0], outerVertices[2]],
